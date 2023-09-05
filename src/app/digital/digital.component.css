@@ -109,13 +109,8 @@ h1 {
     border-radius: 70px;
 }
 
-.side { 
-    margin-top: 7px;
-}
 
-.side4 {
-    margin-top: 6px;
-}
+
 
 .text2 { 
     color: #FFF;
@@ -211,17 +206,18 @@ h1 {
 
     .para {
         color: black;
-    font-family: Urbanist;
-    font-style: normal;
-    display: inline-flex;
-    padding: 0px 15px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    line-height: 25px;
-    font-weight: 300;
-    font-size: 16px;
-    }
+        font-family: Urbanist;
+        font-style: normal;
+        display: inline-flex;
+        padding: 8px -3px;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        line-height: 18px;
+        font-weight: 500;
+        width: 130px;
+        font-size: 11px;
+        }
 
 
 @media only screen and (max-width: 992px) and (min-width:776px) {
@@ -306,12 +302,13 @@ h1 {
 }
 
 .head { 
-    margin-left: -12px;
+    margin-left: -30px;
+   width: 400px;
 }
 
 .head1 { 
     margin-left: -75px;
-    width: 300px;
+    width: 402px;
     margin-top: -12px;
 }
 
@@ -343,8 +340,8 @@ h1 {
 .side { 
     width: 495px;
     height: 410px;
-    margin-top: -59px;
     padding: 65px;
+    margin-top: -2rem;
     margin-left: -60px;
     border-radius: 93px;
 }
@@ -352,82 +349,11 @@ h1 {
 .side4 {
     width: 500px;
     height: 410px;
-    margin-top: -32px;
     padding: 65px;
     margin-left: -90px;
     border-radius: 93px;
      
 }
-
-.serve {  
-    color: #ee9d11;
-    font-family: Urbanist;
-    font-size: 33px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-}
-
-.indu {
-    color: #FFF;
-font-family: Urbanist;
-font-style: normal;
-line-height: normal;
-display: inline-flex;
-padding: 10px 20px;
-text-align: center;
-justify-content: center;
-align-items: center;
-gap: 10px;
-font-weight: 200;
-font-size: 22px;
-}
-
-.card { 
-    height: 230px;
-}
-
-.icons1 { 
-    width: 57px;
-    height: 41px;
-    margin-right: 13px;
-}
-
-.title { 
-    color: #ee9d11;
-    font-family: Urbanist;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    position: relative;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-}
-
-
-.para {
-    color: black;
-    font-family: Urbanist;
-    font-style: normal;
-    display: inline-flex;
-    padding: 0px 15px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    line-height: 22px;
-    font-weight: 300;
-    width: 222px;
-    margin-left: -15px;
-    font-size: 14px;
-}
-
-}
-
 
 .elli1,.elli4 {
     width: 681px;
@@ -456,7 +382,7 @@ font-size: 22px;
     z-index: -1;
 }
 
-
+}
 
 @media screen and (max-width: 430px) and (min-width:375px) {
       
@@ -540,7 +466,7 @@ font-size: 22px;
         .head,.head1 { 
             color: #ee9d11;
             font-family: Urbanist;
-            font-size: 33px;
+            font-size: 27px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -548,9 +474,15 @@ font-size: 22px;
             justify-content: center;
         }
 
+        .head { 
+            text-align: center;
+            margin-top: 79px;
+        }
+
         .head1 { 
-            margin-left: -15px;
+            margin-left: -1.5rem;
             width: 294px;
+            text-align: center;
             justify-content: center;
             display: flex;
         }
@@ -563,7 +495,7 @@ font-size: 22px;
             font-family: Urbanist;
             font-size: 17px;
             font-style: normal;
-            font-weight: 200;
+            font-weight: 500;
             line-height: 24px;
             width: 269px;
             display: flex;
@@ -588,15 +520,16 @@ font-size: 22px;
         }
         
         .side1 { 
-            margin-top: 115px;
+            margin-top: -37px;
         }
 
 
         .side { 
             width: 400px;
+            margin-top: -37px;
             height: 400px;
-            border-radius: 75px;
-            padding: 59px
+            border-radius: 114px;
+            padding: 89px;
         }
         
         
@@ -630,7 +563,7 @@ font-size: 22px;
         
         }
         
-        .elli5,.elli6 { 
+        .elli2,.elli3 { 
             width: 340px;
             height: 340px;
             flex-shrink: 0;
@@ -716,7 +649,7 @@ font-size: 22px;
             position: absolute;
             flex-shrink: 0; 
             top: 3%;
-            margin-left: 327px;
+            margin-left: 11rem;
         }
         
         h1 {
@@ -725,7 +658,7 @@ font-size: 22px;
             font-weight: 800;
             font-style: normal;
             line-height: normal;
-            font-size: 23px;
+            font-size: 28px;
             text-align: center;
         }
         
@@ -742,15 +675,19 @@ font-size: 22px;
             line-height: normal;
             display: flex;
             justify-content: center;
-            margin-left:  235px;
+           
             text-align: center;
-            width: 25px;
+            width: 504px;
 
         }
 
+        .head { 
+            margin-top: 5rem;
+        }
+
         .head1 { 
-            margin-left:50px;
-            width: 294px;
+            margin-left: -4.5rem;
+            width: 500px;
             justify-content: center;
             display: flex;
         }
@@ -761,26 +698,25 @@ font-size: 22px;
             height: 195px;
             color: #FFF;
             font-family: Urbanist;
-            font-size: 17px;
+            font-size: 21px;
             font-style: normal;
             font-weight: 200;
             line-height: 24px;
-            width: 269px;
             display: flex;
             justify-content: center;
-            text-align: justify;
+            text-align: left;
             margin-left: 50px;
         }
 
         .cont {    
-             margin-left: 79px;
-            width: 328px;
+            margin-left: 2.5rem;
+            width: 475px;
         }
         
 
         .cont1  { 
-            
-            width: 280px;
+            margin-left: -1rem;
+            width: 460px;
         }
 
 
@@ -799,6 +735,7 @@ font-size: 22px;
             height: 400px;
             border-radius: 75px;
             padding: 59px;
+            margin-top: -2rem;
             margin-left: -19px;
         }
         
@@ -818,7 +755,7 @@ font-size: 22px;
              font-size: 19px;
         }
         
-        .elli1,.elli4 {
+        .elli2,.elli4 {
             width: 340px;
             height: 340px;
             flex-shrink: 0;
@@ -833,7 +770,7 @@ font-size: 22px;
         
         }
         
-        .elli5,.elli6 { 
+        .elli1,.elli3 { 
             width: 340px;
             height: 340px;
             flex-shrink: 0;
