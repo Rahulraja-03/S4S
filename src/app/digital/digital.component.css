@@ -17,6 +17,7 @@
     padding-bottom: 50px;
 }
 
+
 #start { 
     margin-top: 90px;
 
@@ -108,9 +109,6 @@ h1 {
     padding: 60px;
     border-radius: 70px;
 }
-
-
-
 
 .text2 { 
     color: #FFF;
@@ -341,7 +339,7 @@ h1 {
     width: 495px;
     height: 410px;
     padding: 65px;
-    margin-top: -2rem;
+    margin-top: -41px;
     margin-left: -60px;
     border-radius: 93px;
 }
@@ -350,10 +348,81 @@ h1 {
     width: 500px;
     height: 410px;
     padding: 65px;
+    margin-top: 19px;
     margin-left: -90px;
     border-radius: 93px;
      
 }
+
+.serve {  
+    color: #ee9d11;
+    font-family: Urbanist;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.indu {
+    color: #FFF;
+font-family: Urbanist;
+font-style: normal;
+line-height: normal;
+display: inline-flex;
+padding: 10px 20px;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-weight: 200;
+font-size: 22px;
+}
+
+.card { 
+    height: 230px;
+}
+
+.icons1 { 
+    width: 57px;
+    height: 41px;
+    margin-right: 13px;
+}
+
+.title { 
+    color: #ee9d11;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.para {
+    color: black;
+    font-family: Urbanist;
+    font-style: normal;
+    display: inline-flex;
+    padding: 0px 15px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+    font-weight: 300;
+    width: 222px;
+    margin-left: -15px;
+    font-size: 14px;
+}
+
+}
+
 
 .elli1,.elli4 {
     width: 681px;
@@ -382,9 +451,9 @@ h1 {
     z-index: -1;
 }
 
-}
 
-@media screen and (max-width: 430px) and (min-width:375px) {
+
+@media only screen and (max-width: 500px) {
       
     .hello { 
         overflow-x: hidden;
@@ -408,8 +477,8 @@ h1 {
             background:  linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
             margin-left: -11px;
             margin-bottom: -13px;
+            
         }
-        
         .r1,.r6 { 
             width: 343px;
         }
@@ -459,59 +528,55 @@ h1 {
             text-align: center;
         }
         
-        .about {
+        .about,.about1 {
             padding: 0px;
+        }
+
+        .he { 
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
         }
         
         .head,.head1 { 
             color: #ee9d11;
             font-family: Urbanist;
-            font-size: 27px;
+            font-size: 23px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            display: flex;
-            justify-content: center;
+           
         }
 
-        .head { 
-            text-align: center;
-            margin-top: 79px;
-        }
-
-        .head1 { 
-            margin-left: -1.5rem;
-            width: 294px;
-            text-align: center;
-            justify-content: center;
-            display: flex;
+        .par { 
+          text-align: center; 
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
         
         
         .cont,.cont1 {
            
-            height: 195px;
+            height: 250px;
+            color: #FFF;
             color: #FFF;
             font-family: Urbanist;
             font-size: 17px;
             font-style: normal;
             font-weight: 500;
-            line-height: 24px;
-            width: 269px;
-            display: flex;
-            justify-content: center;
-            text-align: justify;
+             line-height: 24px;
+           
+             text-align: justify;
         }
 
         .cont { 
-            margin-left: 44px;
-            width: 290px;
+            width: 312px;
         }
-        
 
-        .cont1  { 
-            
-            width: 250px;
+        .cont1 { 
+            width: 312px;
         }
 
 
@@ -526,10 +591,10 @@ h1 {
 
         .side { 
             width: 400px;
-            margin-top: -37px;
+            margin-top: -53px;
             height: 400px;
             border-radius: 114px;
-            padding: 89px;
+            padding: 93px;
         }
         
         
@@ -587,7 +652,7 @@ h1 {
        
 }
 
-@media screen and (min-width:431px) and (max-width:775px) {
+@media screen and (min-width:501px) and (max-width:775px) {
     .hello { 
         overflow-x: hidden;
         width: 100%;
@@ -700,7 +765,7 @@ h1 {
             font-family: Urbanist;
             font-size: 21px;
             font-style: normal;
-            font-weight: 200;
+            font-weight: 500;
             line-height: 24px;
             display: flex;
             justify-content: center;

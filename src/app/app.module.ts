@@ -18,6 +18,7 @@ import { AccessComponent } from './access/access.component';
 import { DigitalComponent } from './digital/digital.component';
 import { SoftwareComponent } from './software/software.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule, MatButtonModule, MatIconModule,
-    MatTabsModule,FormsModule,MatCardModule,MatMenuModule,MatExpansionModule
+    MatTabsModule,FormsModule,MatCardModule,MatMenuModule,MatExpansionModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

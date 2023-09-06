@@ -1,21 +1,8 @@
-.ex{
-    width:200px;
-    height:auto;
-    
-  }
-  .ex1{
-    font-family:Urbanist;
-    font-size:20px;
-  }
-  .button2{
-    text-decoration: none;
-    font-family:Urbanist;
-    font-size:20px;
-    background-color: black;
-    color:white;
-    padding:20px;
-  }
-
+.tb{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
 
  @media only screen and (min-width:1501px) {
     .daps{
@@ -32,7 +19,9 @@
     }
     .daps2:hover{
         color:aqua;
-        background-color: aliceblue;     
+        background-color: aliceblue; 
+        font-weight:bold ;
+        font-family: Urbanist;    
     }
     .dtimg{
         width: 80px;
@@ -228,8 +217,11 @@
         font-family: Urbanist; 
     }
     .daps2:hover{
-        color:aqua;
-        background-color: aliceblue;     
+        color:aquamarine;
+        font-size: 21px;
+        background-color: aliceblue;  
+        font-weight:bold ;
+        font-family: Urbanist;   
     }
 .dtimg{
     width: 50px;
@@ -243,16 +235,17 @@
 .bn3{
     background: rgba(255, 255, 255, 0.20); 
     backdrop-filter: blur(10px); 
-    width:90%;
+    width:80%;
     height:50px;
     font-family: Urbanist;
     font-weight: bold;
     border-radius: 10px;
+    margin-left:30px;
     margin-bottom: 60px;
     margin-top: 35px;
-    padding-top: 13px;
+    padding-top: 14px;
     text-align:center;
-    padding-right:15px;
+    padding-right:10px;
 }
 
 .button1{ 
@@ -260,10 +253,11 @@
     text-decoration: none;
     cursor: pointer;
     font-family: Urbanist;
-    margin-left:30px;
+    font-size:16px;
+    margin-left:35px;
 }
 .button1:hover{
-    color:aqua;
+    border-bottom: 5px solid orange;
 }
 .button2{
     color:white;
@@ -281,6 +275,13 @@
 .button4{
     float: right;
        margin-top: 50px;
+}
+.button5{
+    width:150px;
+    height: 45px;
+    color:white;
+    font-family: Urbanist;
+    font-size:16px;
 }
 
 
@@ -421,7 +422,7 @@
 
 }
 
-@media only screen and (min-width:501px)and (max-width:1000px){
+@media only screen and (min-width:501px)and (max-width:1000px){ 
     .dtimg{
         width: 50px;
         margin-top: 30px;
@@ -445,6 +446,38 @@
     cursor: pointer;
     z-index: 1;
 }
+
+
+.mbviewport{
+    background: linear-gradient( to top left, #1b0538c4,#471843dc); 
+    backdrop-filter: blur(40px);
+    width:80%;
+    color:white;
+    padding:30px;
+}
+
+
+
+.button2{
+text-decoration: none;
+font-family:Urbanist;
+font-size:20px;
+background-color: #ee9d11;
+color:white;
+margin-bottom: 30px;
+width:100%;
+}
+.mat-mdc-unelevated-button.mat-unthemed {
+--mdc-filled-button-container-color: #ee9d11;
+}
+.mblog{
+width:45px;
+}
+.mblogimg{
+width: 35px;
+margin-top: 10px;
+}
+
 
 #foot { 
     background: linear-gradient(90deg, #FF891D 0%, #FFD300 100%);
@@ -632,12 +665,46 @@ h3 {
     .mbimg2{
         width: 30px;
         height:auto;
-        float:right;
-        margin-top: 27px;
-        margin-right:20px;
         cursor: pointer;
+        margin-top:25px; 
  
     }   
+    
+.mbviewport{
+    background: linear-gradient( to top left, #1b0538c4,#471843dc); 
+    backdrop-filter: blur(40px);
+    width:80%;
+    color:white;
+    padding:30px;
+}
+
+
+
+.button2{
+text-decoration: none;
+font-family:Urbanist;
+font-size:15px;
+background-color: #ee9d11;
+color:white;
+margin-bottom: 20px;
+width:100%;
+}
+.mat-mdc-unelevated-button.mat-unthemed {
+--mdc-filled-button-container-color: #ee9d11;
+}
+.mblog{
+width:35px;
+}
+.mblogimg{
+width: 20px;
+margin-top: 10px;
+}
+
+
+
+
+
+
 
     #foot { 
         background: linear-gradient(90deg, #FF891D 0%, #FFD300 100%);
@@ -701,3 +768,322 @@ h3 {
     }
 }
 
+@media only screen and (max-width:1200px) and (min-width:1001px){
+    .bn3{
+        width:90%;
+        margin-left:10px;
+    margin-bottom: 60px;
+    margin-top: 35px;
+    padding-top: 14px;
+    text-align:center;
+    padding-right:10px;
+}
+
+.button1{ 
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Urbanist;
+    font-size:16px;
+    margin-left:30px;
+}
+    
+}
+
+
+
+
+.cpage{
+    background: rgba(14, 2, 32, 0.81);
+    background: color(display-p3 0.0471 0.0078 0.1176 / 0.81);
+    backdrop-filter: blur(7.5px);
+    width:100%;
+    height:auto;
+}
+.cpage1{
+    margin-top:40px;
+}
+
+
+.endbtn{
+    color:white;
+    float:right; margin-right:50px;
+}
+
+.req {
+    color: red;
+    font-weight: 700;
+    font-family: 'urbanist';
+    font-size: 15px;
+
+}
+
+
+.example-container {
+
+    margin-left: 33.5rem;
+color: #fff;
+color: color(display-p3 1 1 1);
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 100;
+line-height: 2.5rem;
+display: flex;
+width: 300px;
+padding: 10px 15px;
+flex-direction: column;
+align-items: flex-start;
+}
+.input{
+    border-radius: 5px;
+border: 1px solid #E2E1E5;
+border: 1px solid color(display-p3 0.8863 0.8824 0.898);
+background: #FFF;
+background: color(display-p3 1 1 1);
+}
+.msg{
+    width: 270px;
+    height: 125px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E2E1E5;
+    border: 1px solid color(display-p3 0.8863 0.8824 0.898);
+    background: #FFF;
+    background: color(display-p3 1 1 1);
+}
+.name{
+    width: 270px;
+}
+.number{
+    width: 270px;
+}
+.mail{
+    width: 270px;
+}
+.pleasedetail{
+    color: #FFF;
+color: color(display-p3 1 1 1);
+font-family: Urbanist;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.backsoon{
+    color: #FFF;
+color: color(display-p3 1 1 1);
+text-align: center;
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.buttonsubmit{
+    border-radius: 6px;
+background: #FF8100;
+background: color(display-p3 1 0.5385 0.1125);
+display: inline-flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #fff;
+height: 35px;
+width: 5rem;
+margin-top: 24px;
+margin-left:6rem ;}
+.mat-mdc-raised-button:not(:disabled) {
+    background-color: #FF8100
+}
+
+
+
+
+@media only screen and (max-width:430px) and (min-width:370px) {
+    
+.example-container {
+
+    margin-left: 3rem;
+color: #fff;
+color: color(display-p3 1 1 1);
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 100;
+line-height: 2.5rem;
+display: flex;
+width: 300px;
+padding: 10px 15px;
+flex-direction: column;
+align-items: flex-start;
+}
+.input{
+    border-radius: 5px;
+border: 1px solid #E2E1E5;
+border: 1px solid color(display-p3 0.8863 0.8824 0.898);
+background: #FFF;
+background: color(display-p3 1 1 1);
+}
+.msg{
+    width: 270px;
+    height: 125px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E2E1E5;
+    border: 1px solid color(display-p3 0.8863 0.8824 0.898);
+    background: #FFF;
+    background: color(display-p3 1 1 1);
+}
+.name{
+    width: 270px;
+}
+.number{
+    width: 270px;
+}
+.mail{
+    width: 270px;
+}
+.pleasedetail{
+    color: #FFF;
+color: color(display-p3 1 1 1);
+font-family: Urbanist;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+.backsoon{
+    color: #FFF;
+color: color(display-p3 1 1 1);
+text-align: center;
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buttonsubmit{
+    border-radius: 6px;
+background: #FF8100;
+background: color(display-p3 1 0.5385 0.1125);
+display: inline-flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #fff;
+height: 35px;
+width: 5rem;
+margin-top: 24px;
+margin-left:6rem ;}
+.mat-mdc-raised-button:not(:disabled) {
+    background-color: #FF8100
+}
+    
+}
+@media only screen and (max-width:775px) and (min-width:450px){
+
+    .example-container {
+
+        margin-left: 15rem;
+    color: #fff;
+    color: color(display-p3 1 1 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2.5rem;
+    display: flex;
+    width: 300px;
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .input{
+        border-radius: 5px;
+    border: 1px solid #E2E1E5;
+    border: 1px solid color(display-p3 0.8863 0.8824 0.898);
+    background: #FFF;
+    background: color(display-p3 1 1 1);
+    }
+    .msg{
+        width: 270px;
+        height: 125px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px solid #E2E1E5;
+        border: 1px solid color(display-p3 0.8863 0.8824 0.898);
+        background: #FFF;
+        background: color(display-p3 1 1 1);
+    }
+    .name{
+        width: 270px;
+    }
+    .number{
+        width: 270px;
+    }
+    .mail{
+        width: 270px;
+    }
+    .pleasedetail{
+        color: #FFF;
+    color: color(display-p3 1 1 1);
+    font-family: Urbanist;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    }
+    .backsoon{
+        color: #FFF;
+    color: color(display-p3 1 1 1);
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .buttonsubmit{
+        border-radius: 6px;
+    background: #FF8100;
+    background: color(display-p3 1 0.5385 0.1125);
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    height: 35px;
+    width: 5rem;
+    margin-top: 24px;
+    margin-left:6rem ;}
+    .mat-mdc-raised-button:not(:disabled) {
+        background-color: #FF8100
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:776px){
+    .example-container {
+
+        margin-left: 23rem;
+    color: #fff;
+    color: color(display-p3 1 1 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2.5rem;
+    display: flex;
+    width: 300px;
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    }
+}

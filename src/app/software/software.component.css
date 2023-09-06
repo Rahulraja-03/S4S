@@ -18,6 +18,7 @@
     z-index: -1;
 }
 
+
 #start { 
     margin-top: 90px;
 
@@ -346,6 +347,7 @@ h1 {
 .side { 
     width: 495px;
     height: 410px;
+    margin-top: 10px;
     padding: 65px;
     margin-left: -60px;
     border-radius: 93px;
@@ -459,7 +461,7 @@ font-size: 22px;
 
 
 
-@media screen and (max-width: 430px) and (min-width:375px) {
+@media only screen and (max-width: 500px) {
       
     .hello { 
         overflow-x: hidden;
@@ -483,8 +485,8 @@ font-size: 22px;
             background:  linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
             margin-left: -11px;
             margin-bottom: -13px;
+            
         }
-        
         .r1,.r6 { 
             width: 343px;
         }
@@ -534,59 +536,55 @@ font-size: 22px;
             text-align: center;
         }
         
-        .about {
+        .about,.about1 {
             padding: 0px;
+        }
+
+        .he { 
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
         }
         
         .head,.head1 { 
             color: #ee9d11;
             font-family: Urbanist;
-            font-size: 27px;
+            font-size: 23px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            display: flex;
-            justify-content: center;
+           
         }
 
-        .head { 
-            text-align: center;
-            margin-top: 79px;
-        }
-
-        .head1 { 
-            margin-left: -1.5rem;
-            width: 294px;
-            text-align: center;
-            justify-content: center;
-            display: flex;
+        .par { 
+          text-align: center; 
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
         
         
         .cont,.cont1 {
            
-            height: 195px;
+            height: 250px;
+            color: #FFF;
             color: #FFF;
             font-family: Urbanist;
             font-size: 17px;
             font-style: normal;
             font-weight: 500;
-            line-height: 24px;
-            width: 269px;
-            display: flex;
-            justify-content: center;
-            text-align: justify;
+             line-height: 24px;
+           
+             text-align: justify;
         }
 
         .cont { 
-            margin-left: 44px;
-            width: 290px;
+            width: 312px;
         }
-        
 
-        .cont1  { 
-            
-            width: 250px;
+        .cont1 { 
+            width: 312px;
         }
 
 
@@ -601,10 +599,10 @@ font-size: 22px;
 
         .side { 
             width: 400px;
-            margin-top: -37px;
+            margin-top: -53px;
             height: 400px;
             border-radius: 114px;
-            padding: 89px;
+            padding: 93px;
         }
         
         
@@ -662,7 +660,7 @@ font-size: 22px;
        
 }
 
-@media screen and (min-width:431px) and (max-width:775px) {
+@media screen and (min-width:501px) and (max-width:775px) {
     .hello { 
         overflow-x: hidden;
         width: 100%;

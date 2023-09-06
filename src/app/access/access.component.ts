@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./access.component.css']
 })
 export class AccessComponent {
-
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top with smooth animation
+  }
 }

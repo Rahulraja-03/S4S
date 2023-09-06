@@ -431,7 +431,7 @@ color: #FFF;
     width: 21px;
     height: 21px;
     flex-shrink: 0;
-    margin-left: 880px;
+    margin-left: 876px;
     color: #FFF;
     font-family:' Urbanist';    
     position: absolute;
@@ -441,7 +441,7 @@ color: #FFF;
     width: 21px;
     height: 21px;
     flex-shrink: 0;
-    margin-left: 1250px;
+    margin-left: 1270px;
     margin-top: -35px;
     position: absolute;
     color: #FFF;
@@ -556,14 +556,30 @@ margin-top: 20px;
     width: 10px;
     height: 10px;
     position: absolute;
-    animation: mymove 30s infinite;
+    animation: mymove linear 20s  infinite;
   }
   
   @keyframes mymove {
-    from {left: 0px; top:2090px;}
+    from {left: 0px; top:2092px;}
     
-    to {left: 1275px;top: 2038px;}
+    to {left: 1250px;top: 2038px;}
   }
+ .dot1{
+    margin-top: 14.5px;
+ } 
+ .dot2{
+    margin-top: 15px;
+ } .dot3{
+    margin-top: 16px;
+ } .dot4{
+    margin-top: 14px;
+ }.dot5{
+    margin-top: 14.5px;
+ }
+ .dot1 .dot2 .dot3 .dot4 .dot5{
+    z-index: -1;
+ }
+
  .mad1{
 
     height: 30px;
@@ -573,12 +589,13 @@ margin-top: 20px;
     color: #FFF;
     font-family:' Urbanist';
  }
+
  .mad1{
 
-    height: 114px;
-    width: 160px;
+    height: 109px;
+    width: 158px;
     position:absolute;
-    margin-top: 97px;
+    margin-top: 93px;
     border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.22);
     background: rgba(255, 255, 255, 0.20);
@@ -588,7 +605,25 @@ margin-top: 20px;
     color: #FFF;
     overflow: hidden;
     transition: scale 400ms; 
+    animation: mad1;
+    animation-iteration-count: 7;
  }
+ @keyframes mad1 {
+    from {
+        visibility: visible;
+      }
+       to {
+      visibility: hidden;
+    }
+  }
+  
+  .mad1{
+    visibility: hidden;
+    animation: 5s linear  0s forwards mad1;
+    animation-iteration-count: infinite;
+    
+  }
+ 
  .mad1:hover{
     scale: 120%;
     font-family: 'urbanist';
@@ -612,10 +647,11 @@ margin-top: 20px;
   
  }
  
+
  .mad2{
 
-    height: 130px;
-    width: 177px;
+    height: 120px;
+    width: 174px;
     position:absolute;
     margin-top: 95px;
     border-radius: 12px;
@@ -626,15 +662,30 @@ margin-top: 20px;
     font-family: 'urbanist';
     overflow: hidden;
     transition: scale 400ms; 
-
+    animation: mad2;
  }
+ @keyframes mad2 {
+    from {
+        visibility: visible;
+      }
+       to {
+      visibility: hidden;
+    }
+  }
+  
+  .mad2{
+    visibility: hidden;
+    animation: 3s linear  4.5s forwards mad2;
+    animation-iteration-count: infinite;
+  }
+
  .mad3{
 
-    height: 148px;
-    width: 200px;
+    height: 128px;
+    width: 193px;
     margin-left: -14px;
     position:absolute;
-    margin-top: 95px;
+    margin-top: 100px;
     border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.22);
     background: rgba(255, 255, 255, 0.20);
@@ -643,14 +694,30 @@ margin-top: 20px;
     font-family: 'urbanist';
     overflow: hidden;
     transition: scale 400ms; 
+animation: mad3;
 
  }
+ @keyframes mad3 {
+    from {
+        visibility: visible;
+      }
+       to {
+      visibility: hidden;
+    }
+  }
+  
+  .mad3{
+    visibility: hidden;
+    animation: 4s linear  9s forwards mad3;
+    animation-iteration-count: infinite;
+  }
+
  .mad4{
 
-    height: 165px;
-    width: 192px;
+    height: 130px;
+    width: 175px;
     position:absolute;
-    margin-top: 89px;
+    margin-top: 107px;
     border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.22);
     background: rgba(255, 255, 255, 0.20);
@@ -659,16 +726,32 @@ margin-top: 20px;
     font-family: 'urbanist';
     overflow: hidden;
     transition: scale 400ms; 
-    margin-left: -42px;
+    margin-left: -5px;
+    visibility: hidden;
+animation: mad4;
 
  }
+ @keyframes mad4 {
+    from {
+        visibility: visible;
+      }
+       to {
+      visibility: hidden;
+    }
+  }
+  
+  .mad4{
+    visibility: hidden;
+    animation: 5s linear  13.5s forwards mad4;
+    animation-iteration-count: infinite;
+  }
  .mad5{
 
-    height: 203px;
-    width: 215px;
+    height: 149px;
+    width: 175px;
     position:absolute;
     margin-left: -145px;
-    margin-top: 76px;
+    margin-top: 105px;
     border-radius: 12px;
 border: 2px solid rgba(255, 255, 255, 0.22);
 background: rgba(255, 255, 255, 0.20);
@@ -677,8 +760,24 @@ backdrop-filter: blur(4px);
 font-family: 'urbanist';
  overflow: hidden;
     transition: scale 400ms; 
-
+    visibility: hidden;
+ animation: mad5;
  }
+
+ @keyframes mad5 {
+    from {
+        visibility: visible;
+      }
+       to {
+      visibility: hidden;
+    }
+  }
+  
+  .mad5{
+    visibility: hidden;
+    animation: 9s linear  20s forwards mad5;
+    animation-iteration-count: infinite;
+  }
 
  .cards{
     display: none;
@@ -1696,8 +1795,8 @@ overflow-x: hidden;
 
 }
 
-/** mobile view**/
-@media only screen and (min-width:375px) and (max-width:430px) {
+                                                            /** mobile view**/
+@media only screen and (max-width:430px) {
     body{
         overflow-x: hidden;
         height: 100%;
@@ -1707,7 +1806,10 @@ overflow-x: hidden;
         display: none;
     }
     
+.center{
 
+    text-align: center;
+}
 .body-slide {
 
     margin-top:50px;
@@ -1845,7 +1947,15 @@ line-height: normal;
     display: none;
 }
 
-
+.side1[_ngcontent-ng-c3376115232] {
+    width: 208px;
+    height: 202px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 45px;
+    text-align: center;
+}
 
 .abpa1{
     color: #FFF;
@@ -1854,10 +1964,10 @@ line-height: normal;
     font-style: normal;
     margin-top: 50px;
     line-height: 36px;
-    width: 269px;
+    width: 245px;
     height: 150px;
     flex-shrink: 0;
-    margin-left: 2rem;
+    margin-left: 0rem;
     text-align: left;
     padding-left: 10px;
 }
@@ -1962,7 +2072,7 @@ overflow-x: hidden;
     height: 202px;
     flex-shrink: 0;
     border-radius: 10px;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: 45px;
     text-align: center;
 }
@@ -1987,11 +2097,11 @@ font-size: 17px;
 font-style: normal;
 margin-top: 30px;
 line-height: 36px;
-width: 300px;
+width: 274px;
     text-align: left;
     height: 150px;
     flex-shrink: 0;
-    margin-left: 2rem;
+    margin-left: 3rem;
 padding-left: 10px;
 }
 .brakebr{
@@ -2030,8 +2140,8 @@ margin-top: 20px;
     gap: 10px;
     border-radius: 6px;
     background-color: #FF8100;
-    margin-left: 6rem;
-    margin-top: 311px;
+    margin-left: 4rem;
+    margin-top: 404px;
     width: 181px;
     
 }
