@@ -580,7 +580,7 @@ font-size: 22px;
             font-weight: 500;
             line-height: 24px;
             width: 312px;
-            text-align: left;
+            text-align: justify;
         }
 
         .no1,.bre,.bre3,.he3,.ft0,.c1  {
@@ -655,6 +655,7 @@ font-size: 22px;
             font-family: Urbanist;
             font-size: 33px;
             font-style: normal;
+            text-align: center;
             font-weight: 700;
             line-height: normal;
             display: flex;
@@ -672,7 +673,7 @@ font-size: 22px;
             justify-content: center;
             align-items: center;
             gap: 0px;
-            font-weight: 200;
+            font-weight: 500;
             font-size: 16px;
         
         }
