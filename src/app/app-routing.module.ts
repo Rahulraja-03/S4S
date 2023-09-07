@@ -14,6 +14,7 @@ const routes: Routes = [
   { path:'access' , component : AccessComponent },
   { path:'digital' , component : DigitalComponent },
   { path:'software' , component : SoftwareComponent},
+  {path:"**", redirectTo:""}
 ];
 
 @NgModule({
