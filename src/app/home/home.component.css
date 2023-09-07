@@ -64,7 +64,7 @@ line-height: normal;
                   box-shadow: 15px 15px 40px rgba(0, 0, 0, 50%);
                   margin-top: 23px;
                   width: 100%;
-                  height: 265px;   
+                  height: 300px;   
            }
         #s1:checked~.cards-slide  #slide3,
         #s2:checked~.cards-slide  #slide1,
@@ -88,7 +88,7 @@ line-height: normal;
            
                
         .testing1{
-            margin-top: 40px;
+            margin-top: 20px;
             padding:20px;
             color: #FFF;
             color: color(display-p3 1 1 1);
@@ -102,7 +102,7 @@ line-height: normal;
             
             .testing2{
                 
-                padding:20px;
+                padding:10px;
                 color: #FFF;
                 color: color(display-p3 1 1 1);
                 text-align: center;
@@ -378,20 +378,20 @@ line-height: normal;
     
     
     .card1{
-        width:50%;
+        width:90%;
         z-index: 2;
-        margin-bottom: 50px;
-        margin-left:60px;
+        margin-bottom: 30px;
+        margin-left:10px;
     }
     .cardimg1{
         border-top-left-radius:5px ;
         border-top-right-radius:5px ;
         width:100%;
-        height: 150px;
+        height: 200px;
         background-attachment:cover;  
     }
     .cardover1{
-        margin-top:90px;
+        margin-top:130px;
         background: linear-gradient(2deg, #10000A 5.27%, rgba(47, 3, 32, 0.75) 100.82%, rgba(157, 157, 157, 0.40) 179.86%);
         background: linear-gradient(2deg, color(display-p3 0.0533 0.002 0.0373) 5.27%, color(display-p3 0.1658 0.0228 0.1211 / 0.75) 100.82%, color(display-p3 0.6158 0.6158 0.6158 / 0.40) 179.86%);
         width:100%;
@@ -502,7 +502,21 @@ line-height: normal;
         
     }
     
-
+    .ourclient1{
+        margin-top:120px ;
+        margin-bottom: 120px;
+    }
+    .ourclimg{
+        width:60%;
+        margin-top:50px;
+        margin-left: 20px;
+    }
+    .ourclim1{
+        width:60%;
+        margin-top:70px;
+        margin-left: 20px;
+    }
+    
 
 
 
@@ -737,20 +751,30 @@ z-index: 1;
 
 
 .card1{
-    width:50%;
+    width:90%;
     z-index: 2;
-    margin-bottom: 50px;
-    margin-left:60px;
+    margin-bottom: 30px;
+    margin-left:10px;
+    opacity: 60%;
+    transition: opacity 1s;
 }
+.card1:hover{
+    cursor:pointer;
+    opacity: 100%;
+}
+
 .cardimg1{
     border-top-left-radius:5px ;
     border-top-right-radius:5px ;
     width:100%;
-    height: 150px;
+    height: 200px;
+   
     background-attachment:cover;  
+   
 }
+
 .cardover1{
-    margin-top:90px;
+    margin-top:130px;
     background: linear-gradient(2deg, #10000A 5.27%, rgba(47, 3, 32, 0.75) 100.82%, rgba(157, 157, 157, 0.40) 179.86%);
     background: linear-gradient(2deg, color(display-p3 0.0533 0.002 0.0373) 5.27%, color(display-p3 0.1658 0.0228 0.1211 / 0.75) 100.82%, color(display-p3 0.6158 0.6158 0.6158 / 0.40) 179.86%);
     width:100%;
@@ -758,6 +782,7 @@ z-index: 1;
     color:white;
     text-align: center;
 }
+
 .menu0int {  
     width:30px;height:20px;margin-top: 50px;margin-left:80px;z-index:3;}
 .menu1int{ 
@@ -855,7 +880,21 @@ z-index: 1;
     line-height: 36px; 
     margin-top: 10px;
     }
-
+    .ourclient1{
+        margin-top:120px ;
+        margin-bottom: 120px;
+    }
+    .ourclimg{
+        width:60%;
+        margin-top:50px;
+        margin-left: 20px;
+    }
+    .ourclim1{
+        width:60%;
+        margin-top:70px;
+        margin-left: 20px;
+    }
+    
     
 }
 
@@ -1108,9 +1147,8 @@ z-index: 1;
             margin-bottom: 25px;
         }
         .ourseda3{
-            margin-left:170px;
-            width: 60%;
-            height: 200px;
+            width: 100%;
+            height: 250px;
             flex-shrink: 0; 
             border-radius: 16px;
             border: 2px solid rgba(255, 255, 255, 0.22);
@@ -1126,6 +1164,7 @@ z-index: 1;
             padding-top: 30px;
             margin-bottom: 40px;
           }
+      
           .buttonimg3{
             width: 35px;
             height: 35px;
@@ -1416,8 +1455,7 @@ width:10px;
             margin-bottom: 25px;
         }
         .ourseda3{
-            margin-left:10px;
-            width: 90%;
+            width: 100%;
             height:200px;
             flex-shrink: 0; 
             border-radius: 16px;
@@ -1433,6 +1471,7 @@ width:10px;
             padding-right: 20px;
             margin-bottom: 40px;
           }
+        
           .buttonimg3{
             width: 25px;
             height: 25px;

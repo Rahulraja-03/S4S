@@ -179,6 +179,13 @@
          font-weight: 200;
          line-height: 36px;
      }
+     .ftext:hover{
+        text-decoration: 2px underline white;
+        cursor: pointer;
+        font-weight: 800;
+        transition:1s smooth;
+    }
+     
      
      .ftext1 {
          color: #FFF;
@@ -212,16 +219,13 @@
     .daps2{
         margin-top: 5px;
         color:white;
-        font-size: 20px;
+        font-size: 30px;
         font-weight:bold ;
         font-family: Urbanist; 
     }
     .daps2:hover{
-        color:aquamarine;
-        font-size: 21px;
-        background-color: aliceblue;  
-        font-weight:bold ;
-        font-family: Urbanist;   
+        color:#FF891D;
+       border-bottom:2px solid white ;  
     }
 .dtimg{
     width: 50px;
@@ -398,6 +402,12 @@
      font-weight: 200;
      line-height: 36px;
  }
+ .ftext:hover{
+    text-decoration: 2px underline white;
+    cursor: pointer;
+    font-weight: 800;
+    transition:1s smooth;
+}
  
  .ftext1 {
      color: #FFF;
@@ -461,7 +471,7 @@
 .button2{
 text-decoration: none;
 font-family:Urbanist;
-font-size:20px;
+font-size:16px;
 background-color: #ee9d11;
 color:white;
 margin-bottom: 30px;
@@ -509,8 +519,7 @@ margin-top: 10px;
 
 #ft { 
    background-color:  #0E0E0E;
-   width: 100%;
-   
+   width: 100%;  
 }
 
 .comp { 
@@ -587,6 +596,12 @@ h3 {
     font-style: normal;
     font-weight: 200;
     line-height: 36px;
+}
+.ftext:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 800;
+    transition:1s smooth;
 }
 
 .ftext1 {
@@ -756,6 +771,12 @@ margin-top: 10px;
         text-decoration: none;
         color:white;
     }
+    .ftext:active{
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: 800;
+        transition:1s smooth;
+    }
     
     .mvicon{
         float:right;
@@ -801,13 +822,16 @@ margin-top: 10px;
     height:auto;
 }
 .cpage1{
-    margin-top:40px;
+    margin-top:20px;
 }
 
 
 .endbtn{
-    color:white;
-    float:right; margin-right:50px;
+    width:30px;
+    cursor: pointer;
+    float:right; 
+    margin-top:30px ;
+    margin-right:50px;
 }
 
 .req {
@@ -902,7 +926,7 @@ margin-left:6rem ;}
 
 
 
-@media only screen and (max-width:430px) and (min-width:370px) {
+@media only screen and (max-width:430px)  {
     
 .example-container {
 

@@ -19,6 +19,7 @@
     z-index: -1;
 }
 
+
 #start { 
     margin-top: 90px;
 
@@ -221,7 +222,7 @@ h1 {
 
 @media only screen and (max-width: 992px) and (min-width:776px) {
     .hello { 
-        overflow-x: hidden;
+        overflow: hidden;
         width: 100%;
         min-width: 775px;
         height: auto;
