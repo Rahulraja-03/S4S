@@ -36,6 +36,25 @@
     display: flex;
     gap: 4rem;
 }
+.wisepl{
+    font-weight: bolder;
+    color: #ee9d11;
+ text-align: right;
+    margin-top: 0.5rem;
+}
+.alize{
+    font-weight: bolder;
+    color: #ee9d11;
+    text-align: right;
+    margin-top: -19px;
+}
+
+.pothi{
+    font-weight: bolder;
+    color: #ee9d11;
+  text-align: right;
+    margin-top: 2rem;
+}
 .client{
    text-align: center;
    color: #ee9d11;
@@ -117,9 +136,9 @@ line-height: normal;
             color: color(display-p3 1 1 1);
             text-align: center;
             font-family: Urbanist;
-            font-size: 24px;
+            font-size: 23px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 600;
             line-height: 36px;  
         }
  .testing2{
@@ -129,10 +148,11 @@ line-height: normal;
                 color: color(display-p3 1 1 1);
                 text-align: center;
                 font-family: Urbanist;
-                font-size: 24px;
+                font-size: 23px;
                 font-style: normal;
-                font-weight: 400;
-                line-height: 36px;  
+                font-weight: 600;
+                line-height: 36px; 
+                margin-top:-9px; 
             }
             .buttonimg1{
                 width: 46px;
@@ -166,8 +186,7 @@ line-height: normal;
 .testi1{
     margin-top: 50px;
     text-align: center;
-    color: #FFF;
-color: color(display-p3 1 1 1);
+    color:#ee9d11; 
 font-family: Urbanist;
 font-size: 35px;
 font-style: normal;
@@ -175,11 +194,17 @@ font-weight: 800;
 line-height: normal;
 
 }
+
+ .elipsdes
+ {
+    text-align: center;
+ }   
+
 .abhedm{
     display: none;
 }
 @media only screen and (min-width:1001px) {
-.clientlmbl{
+.clientlmbl,.clientmv{
     display: none;
 } 
 .workflowt{
@@ -208,6 +233,7 @@ line-height: normal;
     display: none;
 }
 .m2012{
+        margin-top: 8px;
 font-family: 'urbanist';
 color:#fff  ;
 padding:  5px 10px 5px 12px;
@@ -218,8 +244,9 @@ font-size:14px ;
     padding:  5px 10px 5px 12px; z-index: -1; font-size: 14px;
     }
  .m2018{
-        font-family: 'urbanist'; color:#fff  ;
+        font-family: 'urbanist'; color:#fff  ;    margin-top: 22px;
          padding:0px 0px 6px 7px;   margin-top: 10px;    z-index: -1; font-size: 14px; 
+
     }
         
 .m2020{
@@ -427,9 +454,9 @@ margin-top: 20px;
   }
   
   @keyframes mymove {
-    from {left: 0px; top:2092px;}
+    from {left: 0px; top:1972px;}
     
-    to {left: 1250px;top: 2038px;}
+    to {left: 1250px;top: 1920px;}
   }
  .dot1{
     margin-top: 14.5px;
@@ -1171,7 +1198,7 @@ margin-top: 20px;
 }
  
 
-@media only screen and (max-width:776px) and (min-width:450px) {
+@media only screen and (max-width:776px) and (min-width:451px) {
     body{
         overflow-x: hidden;
         height: 100%;
@@ -1184,11 +1211,21 @@ margin-top: 20px;
         display: none;
     }
 .abpa1{
-    color: #FFF;  font-family: 'Urbanist';
-    font-size: 22px;  font-style: normal;
-    margin-top: 3rem;  line-height: 36px;
-    width: 420px;  height: 150px;
-    flex-shrink: 0;  margin-left: 3rem;  text-align: left;  padding-left: 10px;
+    color: #FFF;
+    font-family: 'Urbanist';
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 3rem;
+    line-height: 36px;
+    width: 357px;
+    height: 169px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    text-align: left;
+    padding-left: 5px;
+}
+.bc{
+    display: none;
 }
     .rr{
     margin-top: 27px;
@@ -1267,9 +1304,8 @@ filter: blur(194.5px);margin-left: 14rem;top: 4rem;display: flex;overflow-x: hid
 }
 
 .side1 {
-    width: 330px;
-    height: 270px; flex-shrink: 0;
-    border-radius: 10px; margin-left: 5rem;
+    width: 330px; height: 270px;flex-shrink: 0;
+    border-radius: 10px; margin-left: -1rem;
     margin-top: 7rem; text-align: center;
 }
 
@@ -1287,12 +1323,20 @@ margin-top: 40px
 
 }
 .abpa{
-    color: #FFF; font-family: 'Urbanist';
-    font-size: 22px; font-style: normal;
-    margin-top: 30px;  line-height: 42px;
-    width: 400px; text-align: center;
-    height: 150px; flex-shrink: 0;
-    margin-left: 2rem; padding-left: 10px;
+    color: #FFF;
+    font-size: 21px;
+    font-size: 11px;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 30px;
+    line-height: 42px;
+    width: 342px;
+    text-align: left;
+    height: 152px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    padding-left: 23px;
+
 }
 
 .brakebr{
@@ -1300,15 +1344,7 @@ margin-top: 40px
 }
 
 .bc{
-    display: inline-flex;
-padding: 10px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 6px;
-background-color: #FF8100;
-margin-left: 130px;
-margin-top: 20px;
+ display: none;
 
 }
 
@@ -1317,10 +1353,7 @@ margin-top: 20px;
     border-radius: 10px; margin-left: 5rem; margin-top: 35px; text-align: center;
 }
 
-.bc1{
-    display: inline-flex;  padding: 15px 25px; justify-content: center;  align-items: center;
-    gap: 10px; height: 3rem;  border-radius: 6px; background-color: #FF8100;
-    margin-left: 15rem; margin-top: 260px;  width: 181px;  
+.bc1{display: none; 
 }
 
 .border1 {
@@ -1505,13 +1538,14 @@ overflow-x: hidden;
         text-align: center;
         align-items: center;
         font-family: 'urbanist';
-        color:#ee9d11; 
-        font-size: 40px;
+        color: #ee9d11;
+        font-size: 42px;
         display: flex;
         justify-content: center;
         font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 12rem;   
     }
     .workflow{
         height: 100%;
@@ -1526,13 +1560,25 @@ overflow-x: hidden;
     .work { 
         margin-top: -5rem;
     }
+    .l1 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 5px;
+    }
+    .l2 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 5px;
+    }
 
 
 
 }
 
-                                                            /** mobile view**/
-@media only screen and (max-width:430px) {
+                                                 /** mobile view**/
+@media only screen and (max-width:450px) {
     body{
         overflow-x: hidden;
         height: 100%;
@@ -1547,8 +1593,12 @@ overflow-x: hidden;
         height: 202px;
         flex-shrink: 0;
         border-radius: 10px;
-        margin-left: 0rem;
         margin-top: 45px;
+    }
+
+
+
+    .picalign{
         text-align: center;
 
     }
@@ -1622,8 +1672,6 @@ overflow-x: hidden;
     transform: translate3d(120%, 0, -100px);      
 }
 
-
- 
 .testing1{
 margin-top: 3px;
 padding:20px;
@@ -1649,42 +1697,34 @@ line-height: 19px;
   font-weight: 400;
   line-height: 19px;  
 }
-.buttonimg1{
-  width: 46px;
-  height: 46px;
-  flex-shrink: 0;
-  border-radius: 6px;
-  border: 3px solid #FFCDB0;
-  border: 3px solid color(display-p3 1 0.8133 0.7083);
-  background: rgba(255, 255, 255, 0.30);
-  background: color(display-p3 1 1 1 / 0.30);
-  float:right;
-  text-align: center;
-  padding:10px;
+
+.wisepl{
+    font-weight: bold;
+    color: #ee9d11;    margin-top: -53px;
+    margin-left: 39px;
+ font-size: 12px;
 }
-.buttonimg2{
-float: left;
-width: 46px;
-height: 46px;
-flex-shrink: 0;
-border-radius: 6px;
-border: 3px solid #FFCDB0;
-border: 3px solid color(display-p3 1 0.8133 0.7083);
-background: rgba(255, 255, 255, 0.30);
-background: color(display-p3 1 1 1 / 0.30);
-text-align: center;
-padding:10px;
+.alize{
+    font-weight: bold;
+    color: #ee9d11;
+    font-size: 12px;    margin-top: -26px;
+    margin-left: 109px;
 }
-.btnimg{
-width:10px;
+
+.pothi{
+    font-weight: bold;     margin-top: -1px;
+    margin-left: 97px;
+    color: #ee9d11;
+    font-size: 12px;
 }
 .testi1{
 margin-top: -95px;
 text-align: center;
-color: #FFF;
-color: color(display-p3 1 1 1);
+color:#ee9d11; 
 font-family: Urbanist;
 font-size: 35px;
+
+margin-top: -9rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -1787,9 +1827,7 @@ overflow-x: hidden;
     height: 202px;
     flex-shrink: 0;
     border-radius: 10px;
-    margin-left: 2rem;
     margin-top: 45px;
-    text-align: center;
 }
 .abhed{
     display: none;
@@ -1889,7 +1927,7 @@ margin-top: 20px;
     border-radius: 6px;
     background-color: #FF8100;
     margin-left: 1rem;
-    margin-top: 404px;
+    margin-top: 304px;
     width: 181px;
     
 }
@@ -2116,56 +2154,57 @@ overflow-x: hidden;
         align-items: center;
         display: flex;
         position: absolute;
+        margin-left: 5rem;
+        margin-top: -16rem;
     }
-    .l1m{
-     justify-content: center;height: 20px; width: 20px;
-    align-items: center;
-    display: flex;
-    gap: 1rem;
+ .clientmv{
+  margin-top: -6rem
+ }
 
-    }
-    .l2m{
-        justify-content: center; height: 20px; width: 20px;
-       align-items: center;
-       display: flex;
-       gap: 1rem; margin-top: 1rem;
-
-       }
-       .l3m{
+ .clientte {
+    text-align: center;
+        align-items: center;
+        font-family: 'urbanist';
+        color:#ee9d11; 
+        font-size: 32px;
+        display: flex;
         justify-content: center;
-       align-items: center;
-       display: flex; margin-top: 1rem;
-       gap: 1rem;
-       height: 20px; width: 20px;
-       }
-       .l4m{
-        justify-content: center; height: 20px; width: 20px;
-       align-items: center; margin-top: 1rem;
-       display: flex;
-       gap: 1rem;
-       }
-       .l5m{
-        justify-content: center; height: 20px; width: 20px;
-       align-items: center;margin-top: 1rem;
-       display: flex;
-       gap: 1rem;
-
-       }
+        font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+ .clientlm{
+    text-align: center;
+    margin-top: -5rem;
+ }
+   
        .clientlogos{
         display: non;
        }
 
       }
-@media  screen  {
-    
-}
-@media only screen and (min-width:775px) and (max-width:990px){
+
+@media only screen and (min-width:755px) and (max-width:990px){
 .ourj{
     display: none;
 }
 .clientlmbl{
     display: none;
 }
+.clientlmbl{
+display: none;
+}
+.clientmv{
+display: none;
+}
+
+.clientte {
+display: none;
+}
+.clientlm{
+display: none;
+}
+
 }
 @media only screen and (min-width:319px) and (max-width:424px){
 .bc1{

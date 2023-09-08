@@ -16,6 +16,7 @@ export class AppComponent {
 
 onSubmit(){
   console.log(this.contactForm.value)
+  
 }
 
 contactForm = new FormGroup({
