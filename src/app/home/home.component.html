@@ -17,9 +17,9 @@
                 <div [ngClass]="['sliding']" id="slide">
                     <div class="container donnot">
                         <div class="row">
-                            <h1 [ngClass]="['datasl','mdview']">AI-Powered <br> Data Annotataion</h1>
+                            <h1 [ngClass]="['datasl','mdview']">AI-Powered <br> Data Annotation</h1>
                             <div class="col-lg-6 dtview">
-                                <h1 [ngClass]="['datasl']">AI-Powered <br>Data Annotataion</h1>
+                                <h1 [ngClass]="['datasl']">AI-Powered <br>Data Annotation</h1>
                                 <p [ngClass]="['datas2']">Data annotation refers to the process of labeling or tagging data with relevant information or annotations. It is a crucial step in machine learning and artificial intelligence projects. </p>
                                 <button mat-stroked-button class="slidebtn1" [routerLink]="['data']">Learn More</button> 
                             </div>
@@ -322,14 +322,12 @@
         </div>
     </div>
 </div>
+</div>
 
 
 
-        
 
-       
-    </div>
-
+<div>
    <ul class="nav nav-pills dtview" role="tablist">
       <div class="container">
           <h1 class="os1" data-aos="fade-down" data-aos-delay="400" data-aos-once="true">Our Services</h1>
@@ -339,7 +337,7 @@
                        <li class="nav-item">
                             <a class="nav-link active pictab1" data-bs-toggle="pill" href="#menu0">
                                <img src="./assets/test 1.png" [ngClass]="['tested0']">
-                               <p class="text0">Data Annotation & Labelling</p> 
+                               <p class="text0">Data Annotation</p> 
                             </a>
                         </li>
                     </div>     
@@ -363,13 +361,14 @@
                         <li class="nav-item">
                             <a class="nav-link pictab1" data-bs-toggle="pill" href="#menu3">
                                 <img src="./assets/Softwareicon.png" [ngClass]="['tested0']">
-                                <p class="text0">Software Development</p> 
+                                <p class="text0">Software Services</p> 
                             </a>
                         </li>
                     </div>
                 </div>
         </div>
     </ul>
+</div>
     <div class="tab-content dtview" data-aos="zoom-in-up" data-aos-delay="400" data-aos-once="true">
         <div id="menu0"  class="container tab-pane active">
             <img src="./assets/indicator1.png" class="menu0int" >
@@ -377,19 +376,19 @@
                     <div class="container ml-5 mt-5">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['data']" (click)="scrollToTop()" >
                                     <img src="./assets/fruits.png" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >Agriculture Annotation</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['data']" (click)="scrollToTop()">
                                     <img src="./assets/healthcare.png" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >Healthcare Annotation</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['data']" (click)="scrollToTop()">
                                     <img src="./assets/selfdriving.png" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >Self-driving car Annotation</div>
                                 </div>
@@ -398,20 +397,20 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4" [routerLink]="['data']" (click)="scrollToTop()">
                                 <div class="card card1">
                                     <img src="./assets/drone.png" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >Drone Annotation</div>
                             </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card card1">
+                            <div class="col-md-4" >
+                                <div class="card card1" [routerLink]="['data']" (click)="scrollToTop()">
                                     <img src="./assets/sports.png" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >Sports Annotation</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1"[routerLink]="['data']" (click)="scrollToTop()">
                                      <img src="./assets/retail.png" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >Retail Annotation</div>
                                 </div>
@@ -428,19 +427,19 @@
                         <div class="container ml-5 mt-5">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="card card1">
+                                    <div class="card card1" [routerLink]="['digital']" (click)="scrollToTop()">
                                         <img src="./assets/type.jpg" class="cardimg1">
                                         <div class="card-img-overlay cardover1" >Type Setting</div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card card1">
+                                    <div class="card card1" [routerLink]="['digital']" (click)="scrollToTop()">
                                         <img src="./assets/E-book1.png" class="cardimg1">
                                         <div class="card-img-overlay cardover1" >E-book</div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card card1">
+                                    <div class="card card1" [routerLink]="['digital']" (click)="scrollToTop()">
                                         <img src="./assets/dataconversion.jpg"class="cardimg1">
                                         <div class="card-img-overlay cardover1" >Data Conversion</div>
                                     </div>
@@ -455,7 +454,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card card1">
-                                        <img src="./assets/copywriting.jpg" class="cardimg1">
+                                        <img src="./assets/copywriting.jpg" class="cardimg1" [routerLink]="['digital']" (click)="scrollToTop()">
                                         <div class="card-img-overlay cardover1" >Copy Editing</div>
                                 </div>
                                 </div>
@@ -474,19 +473,19 @@
                     <div class="container ml-5 mt-5">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['access']" (click)="scrollToTop()">
                                     <img src="./assets/Pdf.jpg" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >PDF Accessibility</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['access']" (click)="scrollToTop()">
                                     <img src="./assets/Word.jpg" class="cardimg1">
-                                    <div class="card-img-overlay cardover1" >Word Accessibility</div>
+                                    <div class="card-img-overlay cardover1" >WORD Accessibility</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['access']" (click)="scrollToTop()">
                                     <img src="./assets/Ppd.jpg" class="cardimg1">
                                     <div class="card-img-overlay cardover1" >PPT Accessibility</div>
                                 </div>
@@ -501,9 +500,9 @@
                                 
                             </div>
                             <div class="col-md-4">
-                                <div class="card card1">
+                                <div class="card card1" [routerLink]="['access']" (click)="scrollToTop()">
                                     <img src="./assets/Excel.jpg"class="cardimg1">
-                                    <div class="card-img-overlay cardover1" >Excel Accessibility</div>
+                                    <div class="card-img-overlay cardover1" >EXCEL Accessibility</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -521,21 +520,21 @@
                 <div class="container ml-5 mt-5">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="card card1">
+                            <div class="card card1" [routerLink]="['software']" (click)="scrollToTop()">
                                 <img src="./assets/Custom Software-min.jpeg"class="cardimg1">
                                 <div class="card-img-overlay cardover1" >Software Development</div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card card1">
+                            <div class="card card1" [routerLink]="['software']" (click)="scrollToTop()">
                                 <img src="./assets/Web App-min.jpg" class="cardimg1">
                                 <div class="card-img-overlay cardover1" >Web Applications </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card card1">
+                            <div class="card card1" [routerLink]="['software']" (click)="scrollToTop()">
                                 <img src="./assets/Mobile App-min.jpeg" class="cardimg1">
-                                <div class="card-img-overlay cardover1" >Mobile Application Development)</div>
+                                <div class="card-img-overlay cardover1" >Mobile Application Development</div>
                             </div>
                         </div>
                     </div>
@@ -547,7 +546,7 @@
                             
                         </div>
                         <div class="col-md-4">
-                            <div class="card card1">
+                            <div class="card card1" [routerLink]="['software']" (click)="scrollToTop()">
                                 <img src="./assets/Web Dev-min.jpeg"class="cardimg1">
                                 <div class="card-img-overlay cardover1" >Software Maintenance </div>
                             </div>

@@ -230,16 +230,17 @@ line-height: normal;
         display: none;
     }
     .wback1{
+        padding-top: 100px;
         background-color:#1b0536 ;
         width:100%;
         height: auto;
         margin-top: 75px;
         z-index: -2;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
     .wwd1{
         color: #FFF;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Urbanist;
         font-size: 50px;
         font-style: normal;
         font-weight: 500;
@@ -250,7 +251,7 @@ line-height: normal;
     font-family: Urbanist;
     font-size: 25px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 36px; 
     }
     .gafq{
@@ -263,7 +264,7 @@ line-height: normal;
     }
     .backgd2{
         position:absolute;
-        top:650px;
+        top:850px;
         right:0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 260px;
@@ -319,21 +320,21 @@ line-height: normal;
     }
     .bacgd5{
         position:absolute;
-        top:1350px;
+        top:2000px;
         left:-100px;
-        border-radius: 440px;
+        border-radius: 340px;
     background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
     filter: blur(187px);
-    width: 440px;
-    height: 440px;
+    width: 340px;
+    height: 340px;
     flex-shrink: 0; 
     z-index: 1;
     }
     .os1{
         color:white;
         text-align:center;
-        margin-top: 50px;
-        margin-bottom: 40px;
+        margin-top: 200px;
+        margin-bottom: 100px;
         font-size: 35px;
         font-family: Urbanist;
         font-weight: 800;
@@ -352,16 +353,27 @@ line-height: normal;
         color: #FFF;
         text-align: center;
         font-family: Urbanist;
-        font-size: 15px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
     }
     .tested0{
-        width:25px;
+        width:35px;
         height:auto;
         font-family: Urbanist;
     }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        border-radius: 18px;
+        background: linear-gradient(319deg, #200732 2.88%, #903668 54.06%, #FFC6B5 100%);
+        width: 190px;
+        height: 100px;
+        flex-shrink: 0;   
+        text-align: center;  
+        margin-left: 45px;
+      }
+
     .swibebtn1{
         position: relative;
         top:-1px;
@@ -380,8 +392,16 @@ line-height: normal;
     .card1{
         width:90%;
         z-index: 2;
+        opacity:50%;
         margin-bottom: 30px;
         margin-left:10px;
+    }
+    .card1:hover{
+        cursor:pointer;
+        opacity: 100%;
+        border:3px solid #ff7b00;
+        font-size: 20px;
+        font-weight: bolder;
     }
     .cardimg1{
         border-top-left-radius:5px ;
@@ -416,15 +436,7 @@ line-height: normal;
     
     
     
-    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-        border-radius: 18px;
-        background: linear-gradient(319deg, #200732 2.88%, #903668 54.06%, #FFC6B5 100%);
-        width: 120px;
-        height: 80px;
-        flex-shrink: 0;   
-        text-align: center;  
-        margin-left: 45px;
-      }
+    
       .pictab1{
         width: 120px;
         height: 80px;   
@@ -459,8 +471,8 @@ line-height: normal;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
-    margin-top:50px;
-    margin-bottom: 50px;
+    margin-top:180px;
+    margin-bottom: 100px;
     }
     .wrt0{
         margin-top:30px;
@@ -500,7 +512,7 @@ line-height: normal;
     margin-top: 10px;
     }
         
-    }
+   
     
     .ourclient1{
         margin-top:120px ;
@@ -518,6 +530,7 @@ line-height: normal;
     }
     
 
+}
 
 
 @media only screen and  (min-width:1001px) and (max-width:1500px){
@@ -605,6 +618,7 @@ margin-bottom: 30px;
     display: none;
 }
 .wback1{
+    padding-top:100px;
     background-color:#1b0536 ;
     width:100%;
     height: auto;
@@ -614,10 +628,10 @@ margin-bottom: 30px;
 }
 .wwd1{
     color: #FFF;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Urbanist;
     font-size: 35px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal; 
 }
 .wwd2{
@@ -695,21 +709,21 @@ font-family: Urbanist;
 }
 .bacgd5{
     position:absolute;
-    top:1350px;
+    top:1900px;
     left:-100px;
-    border-radius: 440px;
+    border-radius: 340px;
 background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
 filter: blur(187px);
-width: 440px;
-height: 440px;
+width: 340px;
+height: 340px;
 flex-shrink: 0; 
 z-index: 1;
 }
 .os1{
     color:white;
     text-align:center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 150px;
+    margin-bottom: 80px;
     font-size: 30px;
     font-weight: 800;
     font-family: Urbanist;
@@ -727,15 +741,26 @@ z-index: 1;
     color: #FFF;
     text-align: center;
     font-family: Urbanist;
-    font-size: 12px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
+
 .tested0{
-    width:25px;
+    width:35px;
     height:auto;
 }
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    border-radius: 18px;
+    background: linear-gradient(319deg, #200732 2.88%, #903668 54.06%, #FFC6B5 100%);
+    width: 175px;
+    height: 100px;
+    flex-shrink: 0;   
+    text-align: center;  
+    margin-left: 45px;
+  }
+
 .swibebtn1{
     position: relative;
     top:-1px;
@@ -761,6 +786,9 @@ z-index: 1;
 .card1:hover{
     cursor:pointer;
     opacity: 100%;
+    border:3px solid #ff7b00;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .cardimg1{
@@ -799,15 +827,7 @@ z-index: 1;
 
 
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    border-radius: 18px;
-    background: linear-gradient(319deg, #200732 2.88%, #903668 54.06%, #FFC6B5 100%);
-    width: 120px;
-    height: 80px;
-    flex-shrink: 0;   
-    text-align: center;  
-    margin-left: 45px;
-  }
+
   .pictab1{
     width: 120px;
     height: 80px;   
@@ -840,8 +860,8 @@ z-index: 1;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
-    margin-top:50px;
-    margin-bottom: 50px;
+    margin-top:150px;
+    margin-bottom: 80px;
     }
     .wrt0{
         margin-top:30px;
@@ -993,10 +1013,10 @@ z-index: 1;
     }
     .wwd1{
         color: #FFF;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Urbanist;
         font-size: 30px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 800;
         line-height: normal; 
         text-align: center;
     }
@@ -1305,10 +1325,10 @@ width:10px;
     }
     .wwd1{
         color: #FFF;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Urbanist;
         font-size: 30px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 800;
         line-height: normal; 
         text-align: center;
     }

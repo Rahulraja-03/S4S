@@ -12,12 +12,6 @@ export class AppComponent {
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top with smooth animation
   }
-  get last(){
-    return this.contactForm.get('lastName')
-} /**short property for error msg */
-get city(){
-return this.contactForm.get('address')?.get('city')
-}
 
 
 onSubmit(){

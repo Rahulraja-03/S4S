@@ -262,12 +262,12 @@
     </div>
    <div class="cpage1">
     
-    <form [formGroup]="contactForm" (submit)="onSubmit()">
+    <form target="_blank" action="https://formsubmit.co/devilsk567@gmail.com" method="POST" [formGroup]="contactForm" (submit)="onSubmit()">
         <h1 class="pleasedetail">Please enter details.</h1>
         <p class="backsoon">We'll call back Soon</p>
         <div class="example-container">
            <div>Your Name<br> 
-               <input  class="name input" mat-input type="text" name="firstname" placeholder="John doe"  formControlName="firstName">
+               <input  class="name input" mat-input type="text"  required name="name" placeholder="John doe"  formControlName="firstName">
                   <span class="req" *ngIf="!contactForm.controls.firstName.valid && (contactForm.controls.firstName.touched || contactForm.controls.firstName.dirty) ">
                    <span  class="req"  *ngIf="contactForm.controls.firstName.errors?.['required'] ">
                     Firstname Required
@@ -281,7 +281,7 @@
             </span>
         </div>
           <div >Phone Number<br>
-            <input  class="number input" mat-input type="text" placeholder="Mobile Number" name="phone"  formControlName="phone">
+            <input  class="number input" mat-input type="text"  required placeholder="Mobile Number" name="phone"  formControlName="phone">
             <span  class="req" *ngIf="!contactForm.controls.phone.valid && (contactForm.controls.phone.touched || contactForm.controls.phone.dirty) ">
                 <span  class="req"  *ngIf="contactForm.controls.phone.errors?.['required'] ">
                     Valid Number Required
@@ -290,7 +290,7 @@
               </div>
           <div>
             Email ID <br>
-            <input class="mail input" mat-input type="email" placeholder="example@gmail" name="password" formControlName="email">
+            <input class="mail input" mat-input type="email"   required placeholder="example@gmail" name="email" formControlName="email">
             <span class="req"  *ngIf="!contactForm.controls.email.valid && (contactForm.controls.email.touched || contactForm.controls.email.dirty) ">
                 <span class="req"  *ngIf="contactForm.controls.email.errors?.['required'] ">
                     E-mail required
@@ -300,7 +300,7 @@
                 </span>
               </span>
             </div>
-        <div >Message<br><textarea class="msg" placeholder="&nbsp;Message" type="text area"></textarea></div>
+        <div >Message<br><textarea class="msg"   required placeholder="&nbsp;Message" type="text area"></textarea></div>
         
         <button class="buttonsubmit" type="submit" [disabled]="!contactForm.valid" data-bs-dismiss="offcanvas"  mat-raised-button>Submit</button>
         </div>
