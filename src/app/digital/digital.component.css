@@ -580,7 +580,7 @@ font-size: 22px;
         }
 
 
-        .no1,.bre,.bre3,.he3,.ft0  {
+        .no1,.bre,.bre3,.he3,.ft0,.breakbr  {
              display: none;
         }
         
@@ -730,6 +730,13 @@ font-size: 22px;
         .about {
             padding: 0px;
         }
+        .par,.he { 
+            text-align: center; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
         
         .head,.head1 { 
             color: #ee9d11;
@@ -738,24 +745,13 @@ font-size: 22px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            display: flex;
-            justify-content: center;
-           
-            text-align: center;
             width: 504px;
+            text-align: center;
 
         }
 
-        .head { 
-            margin-top: 5rem;
-        }
-
-        .head1 { 
-            margin-left: -4.5rem;
-            width: 500px;
-            justify-content: center;
-            display: flex;
-        }
+    
+    
         
         
         .cont,.cont1 {
@@ -763,29 +759,24 @@ font-size: 22px;
             height: 195px;
             color: #FFF;
             font-family: Urbanist;
-            font-size: 21px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 500;
-            line-height: 24px;
+            line-height: 36px;
+            width: 350px;   
             display: flex;
             justify-content: center;
-            text-align: left;
+            text-align: justify;
             margin-left: 50px;
         }
 
-        .cont {    
-            margin-left: 2.5rem;
-            width: 475px;
-        }
+       
         
 
-        .cont1  { 
-            margin-left: -1rem;
-            width: 460px;
-        }
+       
 
 
-        .no1,.bre,.bre3,.he3,.ft0  {
+        .no1,.bre,.bre3,.he3,.ft0,.c1 {
              display: none;
         }
         
@@ -796,12 +787,12 @@ font-size: 22px;
 
 
         .side { 
-            width: 400px;
-            height: 400px;
+            width: 350px;
+            height: 350px;
             border-radius: 75px;
             padding: 59px;
             margin-top: -2rem;
-            margin-left: -19px;
+            text-align: center;
         }
         
         

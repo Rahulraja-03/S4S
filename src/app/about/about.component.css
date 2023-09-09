@@ -1,4 +1,3 @@
-
 .body{
     position: relative;
     left: 0px;
@@ -36,24 +35,24 @@
     display: flex;
     gap: 4rem;
 }
-.wisepl{
+.testing4{
     font-weight: bolder;
     color: #ee9d11;
  text-align: right;
-    margin-top: 0.5rem;
+    margin-top: 2.5rem;
 }
-.alize{
+.testing6{
     font-weight: bolder;
     color: #ee9d11;
     text-align: right;
     margin-top: -19px;
 }
 
-.pothi{
+.testing3{
     font-weight: bolder;
     color: #ee9d11;
   text-align: right;
-    margin-top: 2rem;
+    margin-top: -2rem;
 }
 .client{
    text-align: center;
@@ -204,7 +203,10 @@ line-height: normal;
     display: none;
 }
 @media only screen and (min-width:1001px) {
-.clientlmbl,.clientmv{
+    .mview01{
+        display:none;
+    }
+    .clientlmbl,.clientmv{
     display: none;
 } 
 .workflowt{
@@ -714,6 +716,10 @@ font-family: 'urbanist';
 }  
 
 @media only screen and ( max-width:1001px) and (min-width:777px){ 
+    
+    .mview01{
+        display:none;
+    }
     .clientlmbl{
         display: none;
     }   
@@ -1199,6 +1205,7 @@ margin-top: 20px;
  
 
 @media only screen and (max-width:776px) and (min-width:451px) {
+   
     body{
         overflow-x: hidden;
         height: 100%;
@@ -1573,12 +1580,166 @@ overflow-x: hidden;
         gap: 5px;
     }
 
-
+    .ourse{
+        text-align: center;
+        color:#ee9d11;
+        margin-top: 80px;
+        font-family: Urbanist;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .ourse1{
+        text-align: center;
+        color:#ee9d11;
+        margin-top: 80px;
+        font-family: Urbanist;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .ourse2{
+        text-align: center;
+        color:#ee9d11;
+        margin-bottom: 80px;
+        font-family: Urbanist;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .ourseda1{
+        width: 90%;
+        height: auto;
+        flex-shrink: 0; 
+        border-radius: 16px;
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+        box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
+        backdrop-filter: blur(4px);
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top:50px;
+        margin-bottom: 50px;
+      }
+      .ourseimg{
+        width:50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .ourseda2{
+        font-size: 22px;
+        color:white;
+        font-family: Urbanist;
+        font-weight: 700; 
+      }
+      .oursed3{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:white;
+        font-weight: 375;
+        line-height: 25px;
+      }
+      .oursed6{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:#ee9d11;
+        text-align: right;
+        font-weight: bold;
+        line-height: 25px;
+      }
+      .oursed7{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:#ee9d11;
+        text-align: right;
+        font-weight:  bold;
+        line-height: 25px;
+      }
+      .oursed8{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:#ee9d11;
+        text-align: right;
+        font-weight: bold;
+        line-height: 25px;
+      }
+    
+    
+        .ourbtn{
+            margin-bottom: 30px;
+            border:2px solid #ee9d11;
+            color: #ee9d11;
+            font-family: Urbanist;
+        }  
+    
+    
+    
+        .ourbtn1{
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .ourseda3{
+            width: 80%;
+            height:168px;
+            flex-shrink: 0; 
+            border-radius: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.22);
+            border: 2px solid color(display-p3 1 1 1 / 0.22);
+            background: rgba(255, 255, 255, 0.20);
+            background: color(display-p3 1 1 1 / 0.20);
+            box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+            box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
+            backdrop-filter: blur(4px);
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 2rem;
+          }
+        
+          .buttonimg3{
+            width: 25px;
+            height: 25px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            border: 3px solid #FFCDB0;
+            border: 3px solid color(display-p3 1 0.8133 0.7083);
+            background: rgba(255, 255, 255, 0.30);
+            background: color(display-p3 1 1 1 / 0.30);
+            float:right;
+            text-align: center;
+           
+        }
+    .buttonimg4{
+    float: left;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 3px solid #FFCDB0;
+    border: 3px solid color(display-p3 1 0.8133 0.7083);
+    background: rgba(255, 255, 255, 0.30);
+    background: color(display-p3 1 1 1 / 0.30);
+    text-align: center;
+    
+    }
+    .btnimg1{
+    width:5px;
+    }
 
 }
 
                                                  /** mobile view**/
 @media only screen and (max-width:450px) {
+    .dviewtes{
+        display: none;
+    }
     body{
         overflow-x: hidden;
         height: 100%;
@@ -2078,17 +2239,7 @@ backdrop-filter: blur(4px);
 width: 270px;
 }
 
-.carousel-item{
-    border-radius: 12px  12px;
-    border: 2px solid rgba(255, 255, 255, 0.22);
-    border: 2px solid color(display-p3 1 1 1 / 0.22);
-    background: rgba(255, 255, 255, 0.06);
-    background: color(display-p3 1 1 1 / 0.06);
-    box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
-    box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
-    backdrop-filter: blur(4px);
-    width: 270px;
-}
+
 
 
 .des4{
@@ -2182,10 +2333,165 @@ overflow-x: hidden;
         display: non;
        }
 
+       .ourse{
+        text-align: center;
+        color:#ee9d11;
+        margin-top: 80px;
+        font-family: Urbanist;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .ourse1{
+        text-align: center;
+        color:#ee9d11;
+        margin-top: 80px;
+        font-family: Urbanist;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .ourse2{
+        text-align: center;
+        color:#ee9d11;
+        margin-bottom: 80px;
+        font-family: Urbanist;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .ourseda1{
+        width: 90%;
+        height: auto;
+        flex-shrink: 0; 
+        border-radius: 16px;
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+        box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
+        backdrop-filter: blur(4px);
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top:50px;
+        margin-bottom: 50px;
+      }
+      .ourseimg{
+        width:50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .ourseda2{
+        font-size: 22px;
+        color:white;
+        font-family: Urbanist;
+        font-weight: 700; 
+      }
+      .oursed3{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:white;
+        font-weight: 375;
+        line-height: 25px;
+      }
+      .oursed6{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:#ee9d11;
+        text-align: right;
+        font-weight: bold;
+        line-height: 25px;
+      }
+      .oursed7{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:#ee9d11;
+        text-align: right;
+        font-weight:  bold;
+        line-height: 25px;
+      }
+      .oursed8{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color:#ee9d11;
+        text-align: right;
+        font-weight: bold;
+        line-height: 25px;
+      }
+    
+    
+        .ourbtn{
+            margin-bottom: 30px;
+            border:2px solid #ee9d11;
+            color: #ee9d11;
+            font-family: Urbanist;
+        }  
+    
+    
+    
+        .ourbtn1{
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .ourseda3{
+            width: 80%;
+            height:168px;
+            flex-shrink: 0; 
+            border-radius: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.22);
+            border: 2px solid color(display-p3 1 1 1 / 0.22);
+            background: rgba(255, 255, 255, 0.20);
+            background: color(display-p3 1 1 1 / 0.20);
+            box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+            box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
+            backdrop-filter: blur(4px);
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 2rem;
+          }
+        
+          .buttonimg3{
+            width: 25px;
+            height: 25px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            border: 3px solid #FFCDB0;
+            border: 3px solid color(display-p3 1 0.8133 0.7083);
+            background: rgba(255, 255, 255, 0.30);
+            background: color(display-p3 1 1 1 / 0.30);
+            float:right;
+            text-align: center;
+           
+        }
+    .buttonimg4{
+    float: left;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 3px solid #FFCDB0;
+    border: 3px solid color(display-p3 1 0.8133 0.7083);
+    background: rgba(255, 255, 255, 0.30);
+    background: color(display-p3 1 1 1 / 0.30);
+    text-align: center;
+    
+    }
+    .btnimg1{
+    width:5px;
+    }
       }
 
 @media only screen and (min-width:755px) and (max-width:990px){
-.ourj{
+    .mview01{
+        display:none;
+    }
+    .ourj{
     display: none;
 }
 .clientlmbl{
@@ -2207,7 +2513,11 @@ display: none;
 
 }
 @media only screen and (min-width:319px) and (max-width:424px){
-.bc1{
+    .dviewtes{
+        display: none;
+    }
+
+    .bc1{
 margin-top: 18rem;
 }
 .alignrt2{
@@ -2252,8 +2562,8 @@ align-items: center;
     margin-top: -84px;
     font-size: 30px;
 }
-.testi1{
-    font-size: 30px;
+.dviewtes{
+ display: none;
 }
 
 .clientlogos{
@@ -2261,4 +2571,155 @@ align-items: center;
     display: none;
 }
 
+.ourse{
+    text-align: center;
+    color:#ee9d11;
+    margin-top: 80px;
+    font-family: Urbanist;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.ourse1{
+    text-align: center;
+    color:#ee9d11;
+    margin-top: 80px;
+    font-family: Urbanist;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.ourse2{
+    text-align: center;
+    color:#ee9d11;
+    margin-bottom: 80px;
+    font-family: Urbanist;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.ourseda1{
+    width: 90%;
+    height: auto;
+    flex-shrink: 0; 
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.22);
+    border: 2px solid color(display-p3 1 1 1 / 0.22);
+    background: rgba(255, 255, 255, 0.20);
+    background: color(display-p3 1 1 1 / 0.20);
+    box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+    box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:50px;
+    margin-bottom: 50px;
+  }
+  .ourseimg{
+    width:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ourseda2{
+    font-size: 22px;
+    color:white;
+    font-family: Urbanist;
+    font-weight: 700; 
+  }
+  .oursed3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:white;
+    font-weight: 375;
+    line-height: 25px;
+  }
+  .oursed6{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:#ee9d11;
+    text-align: right;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  .oursed7{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:#ee9d11;
+    text-align: right;
+    font-weight:  bold;
+    line-height: 25px;
+  }
+  .oursed8{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:#ee9d11;
+    text-align: right;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
+
+    .ourbtn{
+        margin-bottom: 30px;
+        border:2px solid #ee9d11;
+        color: #ee9d11;
+        font-family: Urbanist;
+    }  
+
+
+
+    .ourbtn1{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .ourseda3{
+        width: 80%;
+        height: 183px;
+        flex-shrink: 0; 
+        border-radius: 16px;
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+        box-shadow: 15px -10px 17px 16px color(display-p3 1 1 1 / 0.02) inset;
+        backdrop-filter: blur(4px);
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 40px;
+      }
+    
+      .buttonimg3{
+        width: 25px;
+        height: 25px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 3px solid #FFCDB0;
+        border: 3px solid color(display-p3 1 0.8133 0.7083);
+        background: rgba(255, 255, 255, 0.30);
+        background: color(display-p3 1 1 1 / 0.30);
+        float:right;
+        text-align: center;
+       
+    }
+.buttonimg4{
+float: left;
+width: 25px;
+height: 25px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 3px solid #FFCDB0;
+border: 3px solid color(display-p3 1 0.8133 0.7083);
+background: rgba(255, 255, 255, 0.30);
+background: color(display-p3 1 1 1 / 0.30);
+text-align: center;
+
+}
+.btnimg1{
+width:5px;
+}
 }

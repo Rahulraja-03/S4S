@@ -8,6 +8,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class AppComponent {
   title = 's4s';
   color="#f5ad42";
+  contactFormDirective: any;
 
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top with smooth animation
@@ -16,7 +17,7 @@ export class AppComponent {
 
 onSubmit(){
   console.log(this.contactForm.value)
-  
+  this.contactForm.reset()
 }
 
 contactForm = new FormGroup({
