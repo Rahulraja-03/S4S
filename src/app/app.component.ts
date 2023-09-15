@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Meta,Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 's4s';
   color="#f5ad42";
   contactFormDirective: any;
@@ -29,4 +30,16 @@ email: new FormControl({
 ),
 phone: new FormControl('',[Validators.required])
 })
+
+constructor(
+ private meta :Meta , private titleService: Title ){
+this.titleService.setTitle("Sigma4Solutions");
+this.meta.addTag({name:'description', content:'Sigma4Solutions'});
+this.meta.addTag({name:'keywords',content:'accessibility services,data annotation,about data annotation,digital publishing companies,accessibility reviews,e publishing,karaikudi,karaikudi it companies website,sigma,sigma 4,sigma solution,sigma4solutions karaikudi,sigma4solutions,software services,what is data annotation,software services & consultancy,what is data annotation,software services company'});
+  
+}
+ngOnInit(): void {
+  
+}
+
 }

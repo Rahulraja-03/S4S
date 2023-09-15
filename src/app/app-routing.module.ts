@@ -14,7 +14,12 @@ const routes: Routes = [
   { path:'access' , component : AccessComponent },
   { path:'digital' , component : DigitalComponent },
   { path:'software' , component : SoftwareComponent},
-  {path:"**", redirectTo:""}
+  {path:"**", redirectTo:""},
+  {path:"about", redirectTo:""},
+  {path:"data", redirectTo:""},
+  {path:"access", redirectTo:""},
+  {path:"digital", redirectTo:""},
+  {path:"software", redirectTo:""}
 ];
 
 @NgModule({

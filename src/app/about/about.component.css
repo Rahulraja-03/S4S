@@ -1737,6 +1737,10 @@ overflow-x: hidden;
 
                                                  /** mobile view**/
 @media only screen and (max-width:450px) {
+  .mlv{
+    text-align: center;
+  }
+  
     .dviewtes{
         display: none;
     }
@@ -2516,7 +2520,9 @@ display: none;
     .dviewtes{
         display: none;
     }
-
+    .mlv{
+        text-align: center;
+      }
     .bc1{
 margin-top: 18rem;
 }

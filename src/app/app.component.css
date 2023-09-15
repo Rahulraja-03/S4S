@@ -126,10 +126,10 @@
          font-weight: 500;
          line-height: normal;
      }
-      .vec { 
-         margin-left: 8px;
-     
-      } 
+     .vec { 
+        margin-left: 2px;
+        margin-right: -8px;
+    } 
      .flogo { 
          width: 65px;
          height: 74px;
@@ -349,10 +349,11 @@
      font-weight: 500;
      line-height: normal;
  }
-  .vec { 
-     margin-left: 8px;
- 
-  } 
+ .vec { 
+    margin-left: 2px;
+    margin-right: -8px;
+}
+
  .flogo { 
      width: 65px;
      height: 74px;
@@ -545,9 +546,10 @@ margin-top: 10px;
     line-height: normal;
 }
  .vec { 
-    margin-left: 8px;
-
- } 
+    margin-left: 2px;
+    margin-right: -8px;
+}
+ 
 .flogo { 
     width: 65px;
     height: 74px;
@@ -715,12 +717,6 @@ width: 20px;
 margin-top: 10px;
 }
 
-
-
-
-
-
-
     #foot { 
         background: linear-gradient(90deg, #FF891D 0%, #FFD300 100%);
         width: 100%;
@@ -810,12 +806,6 @@ margin-top: 10px;
 }
     
 }
-
-
-
-
-
-
 .cpage{
     background: rgba(14, 2, 32, 0.81);
     background: color(display-p3 0.0471 0.0078 0.1176 / 0.81);
